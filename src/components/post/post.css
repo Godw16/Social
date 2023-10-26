@@ -1,0 +1,89 @@
+.post{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+  -moz-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+  margin: 30px 0;
+}
+.pwrapper{
+  padding: 10px;
+}
+.ptop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ptleft{
+  display: flex;
+  align-items: center;
+}
+.ptlpic{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.pname{
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+.pdate{
+  font-size: 12px;
+}
+.pcenter{
+  margin: 20px 0; 
+}
+.pimg{
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+.pbottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.pbleft{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.licon {
+  width: 24px;
+  height: 24px;
+  color: blue;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.hicon{
+  width: 24px;
+  height: 24px;
+  color: red;
+  margin-right: 5px;
+  cursor: pointer;
+
+}
+.plcounter{
+  font-size: 12px;
+
+}
+.pbright{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cicon{
+  width: 24px;
+  height: 24px;
+  color: grey;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.pcomment{
+  font-size: 12px;
+}

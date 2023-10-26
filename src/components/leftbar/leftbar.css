@@ -1,0 +1,64 @@
+.leftBar{
+  flex: 3;
+  height: calc(100vh-50px);  
+  overflow-y: scroll; 
+  /* position: relative;
+  top: 50px; */
+}
+
+::-webkit-scrollbar{
+width:6px;
+}
+::-webkit-scrollbar-track{
+  background-color: white;
+}
+::-webkit-scrollbar-thumb{
+  background-color: darkgray;
+}
+.lbwrapper{
+  padding: 20px;
+  
+}
+.lblist{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.lblistitem{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+.lbicon{
+  margin-right: 15px;
+}
+.lbbutton{
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+
+}
+.lbhr{
+  margin: 20px 0;
+}
+.lbfriendlist{
+  padding: 0;
+  margin:0;
+  list-style: none;
+}
+.lbfriend{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+.lbpic{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right:10px ;
+}
